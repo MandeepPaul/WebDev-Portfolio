@@ -1,0 +1,116 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../public/styles/style.css">
+        <title>Mandeep</title>
+        <script src="../app.js"></script>
+    </head>
+    <body class="bg-gradient-to-b from-violet-900 to-purple-300 dark:from-slate-800 dark:to-slate-900 w-full text-white dark:text-slate-200">
+
+    <!-- Header starts here -->
+    <header class="ml-[5%] mr-[5%] md:ml-[15%] md:mr-[15%] drop-shadow-2xl">
+        <div class="text-3xl md:text-4xl text-center font-bold my-5 flex">
+            <button id="toggleButton">
+                <svg class="inline-block flex-none w-10 h-10 md:w-12 md:h-12 p-1 rounded-full bg-indigo-400 hover:bg-indigo-600 hover:text-white dark:bg-slate-600 dark:hover:bg-slate-300 dark:hover:text-black" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+                </svg> 
+            </button>
+            <div class="grow">
+                WELCOME TO MY WEBSITE
+                <svg class="inline-block w-8 md:w-10 pb-2 hover:translate-x-2 duration-1000" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z" />
+                </svg>   
+            </div>         
+        </div>
+
+        <nav class="bg-indigo-500 dark:bg-slate-700 w-full h-10 rounded-t-xl overflow-hidden flex justify-around">
+            <div class="basis-1/4 hover:bg-indigo-100 hover:dark:text-black hover:text-indigo-900 pt-2 text-white text-center cursor-pointer">
+                <svg class="inline-block w-7 md:w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>  
+                <span class="hidden md:inline">ABOUT ME</span>
+            </div>
+
+            <div class="basis-1/4 hover:bg-indigo-100 hover:dark:text-black hover:text-indigo-900 pt-2 text-white text-center cursor-pointer border-x-2">
+                <svg class="inline-block w-7 md:w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M14.25 9.75L16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0020.25 18V6A2.25 2.25 0 0018 3.75H6A2.25 2.25 0 003.75 6v12A2.25 2.25 0 006 20.25z" />
+                </svg>
+                <span class="hidden md:inline">SKILLS</span>
+            </div>
+
+            <div class="basis-1/4 hover:bg-indigo-100 hover:dark:text-black hover:text-indigo-900 pt-2 text-white text-center cursor-pointer border-r-2">
+                <svg class="inline-block w-7 md:w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
+                </svg>
+                  
+                <span class="hidden md:inline">PROJECTS</span>
+            </div>
+
+            <div class="basis-1/4 hover:bg-indigo-100 hover:dark:text-black hover:text-indigo-900 pt-2 text-white text-center cursor-pointer">
+                <svg class="inline-block w-7 md:w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 
+                    59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 
+                    11.55A5.981 5.981 0 006.75 15.75v-1.5" />
+                </svg>
+                <span class="hidden md:inline">EDUCATION</span>
+            </div>
+        </nav> 
+    </header>
+
+    <!-- Header ends here -->
+
+    <div class="bg-indigo-400 relative h-[80%] ml-[5%] mr-[5%] md:ml-[15%] md:mr-[15%] m-2 rounded-b-xl drop-shadow-2xl dark:bg-slate-700">
+        <div class="h-[280px] md:h-[250px] inset-x-4 md:inset-x-16 
+            bg-gradient-to-t from-indigo-500 dark:from-slate-600 dark:to-slate-700 
+            absolute rounded-xl flex flex-col md:flex-row-reverse justify-between items-center p-4">
+            <img src="../public/me.jpg" class="h-[150px] drop-shadow-lg rounded-lg relative">
+            <p class="flex flex-col pr-3">
+                <span class="text-xl md:text-3xl font-semibold text-center md:text-start">MANDEEP KUMAR</span>
+                <span class="text-xs md:text-sm font-semibold text-center md:text-start text-slate-700 dark:text-slate-300">FULL STACK WEB DEVELOPER</span>
+                <br>
+                Recent graduate in BSC Applied Computer Science from University of Winnipeg
+            </p>
+        </div>
+        <div class="h-max-[300px] md:h-[250px] p-4 md:p-6 inset-x-4 md:inset-x-16 bg-gradient-to-t from-indigo-500 dark:from-slate-600 dark:to-slate-700 absolute bottom-16 rounded-xl">
+            <p>
+                I have a deep passion for technology and a perpetual eagerness to learn new things.
+                Understanding user behavior and incorporating intuitive navigation and interaction patterns to enhance the overall user experience.
+            </p>
+            <div class="text-lg md:text-xl mt-5 md:mt-10 text-center flex flex-col items-center gap-2">
+                <span class="text-sm">Let's join forces and create remarkable digital experiences that leave a lasting impact.</span>
+                <button class="text-sm w-[120px] md:mt-2 font-semibold rounded-xl px-2 py-1 bg-indigo-500 dark:bg-slate-500 drop-shadow-lg transition ease-in-out delay-100 hover:translate-y-1 hover:scale-110 hover:bg-indigo-600 hover:dark:bg-slate-600">CONTACT ME</button>
+            </div>
+        </div>
+        <footer class="h-14 w-full bg-gradient-to-l from-indigo-500 via-indigo-600 to-indigo-500
+                md:from-indigo-600 md:via-indigo-500 md:to-indigo-600 
+                dark:from-slate-500 dark:via-slate-600 dark:to-slate-500
+                dark:md:from-slate-600 dark:md:via-slate-500 dark:md:to-slate-600
+                absolute bottom-0 rounded-b-xl text-white 
+                flex flex-col-reverse justify-center items-center 
+                md:p-4 md:flex-row md:justify-between">
+
+            <span class="text-xs md:text-sm">&#169; Copyright 2023 | All Rights Reserved</span> 
+            <ul class="flex gap-4 items-center">
+                <li>
+                    <a href="https://github.com/MandeepPaul" target="_blank" class="md:flex gap-1">
+                        <img src="../public/github.png" class="w-8 hover:bg-slate-300 rounded-full dark:bg-white dark:hover:bg-slate-400"> 
+                        <span class="hidden md:block pt-1 hover:text-blue-400 hover:underline hover:underline-offset-2">Github</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/mandeep-kumar-27b3911a0/" target="_blank" class="md:flex gap-1">
+                        <img src="../public/linkedin.png" class="w-8 p-1 hover:bg-slate-300 rounded-full dark:bg-white dark:hover:bg-slate-400"> 
+                        <span class="hidden md:block p-1 hover:text-blue-400 hover:underline hover:underline-offset-2">Linkedin</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/Mandeep27873882" target="_blank" class="md:flex gap-1">
+                        <img src="../public/twitter.png" class="w-8 p-1 hover:bg-slate-300 rounded-full dark:bg-white dark:hover:bg-slate-400"> 
+                        <span class="hidden md:block pt-1 hover:text-blue-400 hover:underline hover:underline-offset-2">Twitter</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <!-- <button class="border-2 border-slate-600 rounded-full w-10 px-1"><img src="..\public\moon2.png" alt="Dark Mode" ></button> -->
+</body>
+</html>
