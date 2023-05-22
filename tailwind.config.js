@@ -7,7 +7,9 @@ content: [
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
   darkMode: 'class',
 }
 

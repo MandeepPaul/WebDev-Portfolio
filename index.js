@@ -17,6 +17,17 @@ app.get("/", function(req, res){
     res.render("about");
 })
 
+app.get("/skills", function(req, res){
+    res.render("skills");
+})
+
+app.get("/projects", function(req, res){
+    res.render("projects");
+})
+
+app.get("/education", function(req, res){
+    res.render("education");
+})
 
 app.listen(app.get("port"), function () {
 	console.log("Express started on http://localhost:" + app.get("port") +"; press Ctrl-C to terminate." );
