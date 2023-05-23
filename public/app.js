@@ -28,4 +28,13 @@ function themeSwitch() {
 
 // Add click event listener to the toggle button
 toggleButton.addEventListener('click', themeSwitch);
+
+// Check if you are on the home page
+if (window.location.pathname === '/') {
+  const heading = document.getElementById('heading');
+  heading.classList.add('animate-slide-in');
+}
+
 });
+
+
