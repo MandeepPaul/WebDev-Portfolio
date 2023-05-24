@@ -1,10 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* 
-@layer components{
-    .list-item{
-        @apply bg-violet-500 rounded-sm px-2 p-1 font-semibold;
-    }
-} */
 
+@layer components{
+    /* Common for all handlebars */
+    .content-container{
+        @apply flex flex-col flex-grow relative my-2
+        min-h-[80%] mx-[5%] rounded-b-xl bg-indigo-400 drop-shadow-2xl dark:bg-slate-700;
+    }
+    .span-heading{
+        @apply bg-indigo-500 dark:bg-slate-700 p-1 text-lg rounded-t-md border-2 border-white dark:border-slate-400
+    }  
+
+    .ul-list{
+        @apply h-[90%] flex flex-col gap-2 flex-grow mx-8 mb-12 p-4 text-center text-lg  
+    }
+    .outer-list-item{
+        @apply flex flex-col text-ellipsis overflow-hidden;
+    }
+    .list-item{
+        @apply grid grid-cols-2 p-1 rounded-b-md bg-slate-100 dark:bg-gradient-to-b dark:from-slate-400 dark:to-slate-500 text-indigo-500 dark:text-white text-sm;
+    }
+}
+
+@media (min-width: 768px) {
+    /* Common for all handlebars */
+    .content-container{
+        @apply md:ml-[15%] md:mr-[15%];
+    }
+    .span-heading{
+        @apply md:text-xl md:font-semibold
+    }
+
+    .ul-list{
+        @apply md:justify-between md:mx-16 md:text-xl
+    }
+    .list-item {
+        @apply md:text-lg md:flex md:justify-center md:gap-4 md:flex-wrap;
+    }
+  }

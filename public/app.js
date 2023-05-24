@@ -34,6 +34,9 @@ if (window.location.pathname === '/') {
   const heading = document.getElementById('heading');
   heading.classList.add('animate-slide-in');
 }
+else{
+  heading.classList.remove('animate-slide-in');
+}
 
 });
 
