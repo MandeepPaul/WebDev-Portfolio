@@ -16,7 +16,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build:css": "postcss src/input.css -o public/styles/style.css"
+    "build": "your-build-command"
   },
   "repository": {
     "type": "git",
