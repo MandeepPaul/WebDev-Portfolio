@@ -16,7 +16,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "your-build-command"
+    "start": "node index.js",
+    "build": "NODE_ENV=production npx tailwindcss-cli build -o public/styles/style.css && node index.js",
+    "build:css": "postcss src/input.css -o public/styles/style.css"
   },
   "repository": {
     "type": "git",
