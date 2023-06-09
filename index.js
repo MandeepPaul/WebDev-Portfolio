@@ -7,6 +7,8 @@ const express = require("express"),
     User = require('./models/userInfo'),
     routes = require("./routes/route")(app);
 
+const logger = require('./logger');
+
     // load env variables
 const dotenv = require("dotenv");
 dotenv.config();
