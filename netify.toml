@@ -1,4 +1,0 @@
-[[redirects]]
-  from = "/*"
-  to = "/views/layouts/main.handlebars"
-  status = 200
