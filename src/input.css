@@ -6,7 +6,7 @@
     /* Common for all handlebars */
     .content-container{
         @apply flex flex-col flex-grow relative my-2
-        min-h-[80%] mx-[5%] rounded-b-xl bg-indigo-400 drop-shadow-2xl dark:bg-slate-700;
+        mx-[5%] rounded-b-xl bg-indigo-400 drop-shadow-2xl dark:bg-slate-700;
     }
     .span-heading{
         @apply bg-indigo-500 dark:bg-slate-700 p-1 text-lg rounded-t-md border-2 border-white dark:border-slate-400
