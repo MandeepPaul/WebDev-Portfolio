@@ -13,6 +13,9 @@
   },
   "name": "webdev-portfolio",
   "version": "1.0.0",
+  "engines": {
+    "node": "~18.12.1"
+  },
   "main": "index.js",
   "scripts": {
     "build": "postcss src/input.css -o public/styles/style.css",
