@@ -739,9 +739,6 @@ video {
 .flex-col-reverse {
   flex-direction: column-reverse;
 }
-.flex-wrap {
-  flex-wrap: wrap;
-}
 .items-start {
   align-items: flex-start;
 }
@@ -765,6 +762,9 @@ video {
 }
 .gap-4 {
   gap: 1rem;
+}
+.justify-self-start {
+  justify-self: start;
 }
 .overflow-hidden {
   overflow: hidden;
