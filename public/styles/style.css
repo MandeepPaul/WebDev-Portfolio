@@ -663,8 +663,11 @@ video {
 .h-6 {
   height: 1.5rem;
 }
-.h-\[200px\] {
-  height: 200px;
+.h-8 {
+  height: 2rem;
+}
+.h-\[150px\] {
+  height: 150px;
 }
 .h-\[92\%\] {
   height: 92%;
@@ -674,9 +677,6 @@ video {
 }
 .min-h-\[50\%\] {
   min-height: 50%;
-}
-.w-10 {
-  width: 2.5rem;
 }
 .w-6 {
   width: 1.5rem;
