@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-content: [
+  content: [
     "./views/**/*.handlebars",
   ],
   theme: {
@@ -26,10 +26,22 @@ content: [
             opacity: '1',
           }
         },
+        gradientAnimation: {
+          '0%': {
+            'background-position': '0% 50%', /* Initial background position */
+          },
+          '50%': {
+            'background-position': '100% 50%', /* Final background position */
+          },
+          '100%': {
+            'background-position': '0% 50%', /* Final background position */
+          }
+        }
       },
       animation: {
         'slide-in': 'slideIn 2s forwards',
         'reappear': 'reappear 5s forwards',
+        'gradientanimate': 'gradientAnimation 5s linear infinite',
       },
     },
   },
@@ -37,5 +49,4 @@ content: [
     require('@tailwindcss/typography'),
   ],
   darkMode: 'class',
-}
-
+};
