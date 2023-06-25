@@ -1,5 +1,6 @@
 const express = require('express');
 const router = express.Router();
+const fs = require("fs");
 
 // Import the Users model if needed
 const Users = require('../models/userInfo');
@@ -18,8 +19,16 @@ module.exports = function(app) {
       res.render("projects");
   });
   
-  router.get("/education", function(req, res){
-      res.render("education");
+  router.get("/education", async function(req, res){
+    try {
+      const data = await fs.promises.readFile("routes/courses.json");
+      const courseInfo = JSON.parse(data);
+      //console.log(courseInfo);
+      res.render("education", courseInfo);
+    } catch (err) {
+      console.error(err);
+      res.status(500).send("Internal Server Error");
+    }
   });
   
   router.get("/contact", function(req, res){
