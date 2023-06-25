@@ -1,0 +1,96 @@
+{
+    "coursesCompleted": [
+
+      {
+        "title": "Introduction to Game Development",
+        "skillsGained": [
+         
+        ],
+        "imageUrl": "https://cdn.pixabay.com/photo/2021/09/07/07/11/game-console-6603120_1280.jpg"
+      },
+      {
+        "title": "Human Computer Interaction",
+        "skillsGained": [
+          
+        ],
+        "imageUrl": "https://plus.unsplash.com/premium_photo-1661691738042-7707cc9d5ecd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+      },
+      {
+        "title": "Computer Architecture & System Software",
+        "skillsGained": [
+          
+        ],
+        "imageUrl": "https://cdn.pixabay.com/photo/2014/12/11/22/07/cpu-564771_1280.jpg"
+      },
+      {
+        "title": "Database Systems",
+        "skillsGained": [
+          
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=836&q=80"
+      },
+      {
+        "title": "Application of Database Systems",
+        "skillsGained": [
+ 
+        ],
+        "imageUrl": "https://cdn.pixabay.com/photo/2016/03/04/12/20/server-1235959_1280.jpg"
+      },
+      {
+        "title": "Web Design & Development",
+        "skillsGained": [
+          
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1621839673705-6617adf9e890?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80"
+      },
+      {
+        "title": "Internet Programming",
+        "skillsGained": [
+          
+        ],
+        "imageUrl": "https://cdn.pixabay.com/photo/2016/03/27/18/54/technology-1283624_1280.jpg"
+      },
+      {
+        "title": "Advance Internet Programming",
+        "skillsGained": [
+         
+        ],
+        "imageUrl": "https://cdn.pixabay.com/photo/2017/04/23/19/30/earth-2254769_1280.jpg"
+      },
+      {
+        "title": "Programming I",
+        "skillsGained": [
+          
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80"
+      },
+      {
+        "title": "Programming II",
+        "skillsGained": [
+          
+        ],
+        "imageUrl": "https://plus.unsplash.com/premium_photo-1678565869434-c81195861939?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+      },
+      {
+        "title": "Requirement Analysis and Design",
+        "skillsGained": [
+         
+        ],
+        "imageUrl": "https://cdn.pixabay.com/photo/2015/05/12/09/13/freelancer-763730_1280.jpg"
+      },
+      {
+        "title": "Data Structures and Algorithm",
+        "skillsGained": [
+         
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1642952469120-eed4b65104be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+      },
+      {
+        "title": "Software Design and Architecture",
+        "skillsGained": [
+         
+        ],
+        "imageUrl": "https://cdn.pixabay.com/photo/2017/04/23/19/30/earth-2254769_1280.jpg"
+      }
+    ]
+  }
