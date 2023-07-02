@@ -1,0 +1,60 @@
+{
+    "skills-page": [
+
+    {
+        "title": "Programming Languages and Technologies",
+        "skills": [
+            "Java",
+            "JavaScript",
+            "C#",
+            "HTML",
+            "CSS",
+            "Node.js",
+            "Express.js",
+            "TailwindCSS",
+            "Handlebars",
+            "Assembly_Language"
+        ]
+    },
+    {
+        "title": "Database and Data Management",
+        "skills": [
+            "MySQL",
+            "MongoDB",
+            "PostgreSQL",
+            "MS Access"
+        ]
+    },
+    {
+        "title": "IDEs and Editors",
+        "skills": [
+            "Visual Studio Code",
+            "Atom",
+            "Eclipse"
+        ]
+    },
+    {
+        "title": "Version Control and Collaboration",
+        "skills": [
+            "Git",
+            "GitHub",
+            "Github_Pages",
+            "Trello"
+        ]
+    },
+    {
+        "title": "Design and Prototype",
+        "skills": [
+            "Figma",
+            "Balsamiq",
+            "Umlet"
+        ]
+    },
+    {
+        "title": "Game Engine",
+        "skills": [
+            "Unity"
+        ]
+    }
+    ]
+  }

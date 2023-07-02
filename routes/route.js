@@ -11,8 +11,15 @@ module.exports = function(app) {
       res.render("about");
   });
   
-  router.get("/skills", function(req, res){
-      res.render("skills");
+  router.get("/skills", async function(req, res){
+    try {
+      const data = await fs.promises.readFile("routes/skills.json");
+      const skillsInfo = JSON.parse(data);
+      res.render("skills", skillsInfo);
+    } catch (err) {
+      console.error(err);
+      res.status(500).send("Internal Server Error");
+    }
   });
   
   router.get("/projects", function(req, res){

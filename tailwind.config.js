@@ -26,6 +26,14 @@ module.exports = {
             opacity: '1',
           }
         },
+        fadein: {
+          '0%': {
+              opacity: '0',
+          },
+          '100%': {
+              opacity: '1',
+          }
+        },
         gradientAnimation: {
           '0%': {
             'background-position': '0% 50%', /* Initial background position */
@@ -42,9 +50,10 @@ module.exports = {
         'slide-in': 'slideIn 2s forwards',
         'reappear': 'reappear 5s forwards',
         'gradientanimate': 'gradientAnimation 5s linear infinite',
+        'fadein':'animation: fade-in 0.5s ease-in-out',
+      }
       },
     },
-  },
   plugins: [
     require('@tailwindcss/typography'),
   ],

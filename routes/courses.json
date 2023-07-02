@@ -4,6 +4,7 @@
       {
         "title": "Introduction to Game Development",
         "skillsGained": [
+          "game design, game architecture and mechanism"
          
         ],
         "imageUrl": "https://cdn.pixabay.com/photo/2021/09/07/07/11/game-console-6603120_1280.jpg"
@@ -11,6 +12,7 @@
       {
         "title": "Human Computer Interaction",
         "skillsGained": [
+          "human cognitive aspects"
           
         ],
         "imageUrl": "https://plus.unsplash.com/premium_photo-1661691738042-7707cc9d5ecd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
